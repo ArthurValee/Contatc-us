@@ -36,10 +36,12 @@ body {
     border: 0;
     border-bottom: 1px solid #ADADAD;
     border-radius: 1px;
+    background: transparent;
 }
 
 #message-text textarea{
     resize: none;
+    background: transparent;
     width: 490px;
     border: 0;
     border-bottom: 1px solid #ADADAD;
