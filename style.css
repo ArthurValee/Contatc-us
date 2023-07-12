@@ -74,12 +74,12 @@ body {
     }
 
     #formInputs input {
-        width: 290px;
+        width: 285px;
         height: 25px;
     }
 
     #message-text textarea{
-        width: 290px;
+        width: 285px;
       }
 
     #buttonClick input{
