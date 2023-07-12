@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(29deg, rgba(213, 0, 125, 0.80) 0%, rgba(229, 57, 53, 0.80) 100%);
+    width: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#backForm {
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 450px;
+}
+
+#titleForm {
+    text-align: center;
+    font-size: 300%;
+    color: #333;
+}
+
+#formInputs {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#formInputs input {
+    width: 490px;
+    height: 25px;
+    margin-bottom: 20px;
+
+    border: 0;
+    border-bottom: 1px solid #ADADAD;
+    border-radius: 1px;
+}
+
+#message-text textarea{
+    resize: none;
+    width: 490px;
+    border: 0;
+    border-bottom: 1px solid #ADADAD;
+    border-radius: 1px;
+  }
+
+#buttonClick input{
+    margin-top: 35px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 244px;
+    height: 30px;
+
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    background: linear-gradient(184deg, #D5007D 0%, #E53935 33.33%, #D5007D 66.67%, #E53935 100%);
+}
+
+@media (max-width: 560px) {
+    #titleForm {
+        font-size: 100%;
+    }
+
+    #backForm {
+        width: 300px;
+        height: 250px;
+    }
+
+    #formInputs input {
+        width: 290px;
+        height: 25px;
+    }
+
+    #message-text textarea{
+        width: 290px;
+      }
+
+    #buttonClick input{
+        margin-top: 10px;
+
+        width: 200px;
+        height: 25px;
+    }
+}
